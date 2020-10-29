@@ -1,0 +1,43 @@
+{
+  "name": "taiyi-extension-example",
+  "displayName": "taiyi-extension-example",
+  "description": "taiyi-extension-example",
+  "version": "0.0.1",
+  "publisher": "taiyi",
+  "icon": "images/aptan-logo.png",
+  "keywords": [
+      "extension"
+  ],
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+  ],
+  "extensionKind": [
+  ],
+  "main": "./out/index.js",
+  "activationEvents": [
+    "onCommand:extension.say"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.say",
+        "title": "say Hi!"
+      }
+    ],
+    "snippets": [
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "3.9.6",
+    "@types/vscode": "^1.45.0",
+    "@types/node": "^14.0.14"
+  }
+}
