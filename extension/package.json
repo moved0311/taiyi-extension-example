@@ -4,7 +4,7 @@
   "description": "taiyi-extension-example",
   "version": "0.0.1",
   "publisher": "taiyi",
-  "icon": "images/aptan-logo.png",
+  "icon": "images/logo.png",
   "keywords": [
       "extension"
   ],

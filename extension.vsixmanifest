@@ -20,7 +20,7 @@
       
     </Properties>
     
-    <Icon>extension/images/aptan-logo.png</Icon>
+    <Icon>extension/images/logo.png</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
